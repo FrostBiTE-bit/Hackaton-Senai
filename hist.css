@@ -1,0 +1,177 @@
+body {
+    background-color: #5D5D5D;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(media/fundo\login.png);
+}  
+#cabecalho {
+    position: relative;
+    width: 1900px;
+    height: 140px;
+    background-color: #A83D3D;
+    text-align: center;
+    margin-right: -10px;
+    margin-top: -10px;
+    border: 0px;
+    margin-left: -20px;
+}
+#logo {
+    position: absolute;
+    width: 259px;
+    height: 162px;
+    left: 631px;
+    top: 0px;
+    background: url(image.png);
+    
+}    
+.lateral {
+    position: absolute;
+    width: 245px;
+    height: 620px;
+    left: 0px;
+    top: 138px;
+    background: #2F2F2F;
+    color: white;
+    font-size: 25px;
+    line-height: 50px;
+}
+.lateral a {
+    margin-left: 30px;
+}
+.seta {
+    width: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#caixa_cinza {
+    position: absolute;
+    width: 1148px;
+    height: 498px;
+    background-color: #808080;
+    left: 320px;
+    top: 200px;
+}
+#nav_bar {
+    position: absolute;
+    width: 1148px;
+    height: 50px;
+    background-color: #A83D3D;
+    color: white;
+}
+.texto_nav {
+    margin-top: 13px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+#ano {
+    position: absolute;
+    width: 250px;
+    height: 280px;
+    left: 100px;
+    top: 130px;
+    text-align: center;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#mes {
+    position: absolute;
+    width: 250px;
+    height: 280px;
+    left: 450px;
+    top: 130px;
+    text-align: center;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+#dia {
+    position: absolute;
+    width: 250px;
+    height: 280px;
+    left: 800px;
+    top: 130px;
+    text-align: center;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.ano_t{
+    width: 250px;
+    background-color: #A83D3D;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+.mes_t{
+    width: 250px;
+    background-color: #A83D3D;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+.dia_t{
+    width: 250px;
+    background-color: #A83D3D;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+.prosseguir{
+    margin-top: 430px;
+    margin-left: 475px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    background-color: #A83D3D;
+    color: white;
+}
+.a2022{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #4b4b4b;
+}
+.a2023{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.a2024{
+    margin-top: -25px;
+    font-size: 25px;
+    color: #4b4b4b;
+}
+.maio{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #4b4b4b;
+}
+.junho{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.julho{
+    margin-top: -25px;
+    font-size: 25px;
+    color: #4b4b4b;
+}
+.a28{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #4b4b4b;
+}
+.a29{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.a30{
+    margin-top: -25px;
+    font-size: 25px;
+    color: #4b4b4b;
+}

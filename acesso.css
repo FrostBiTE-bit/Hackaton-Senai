@@ -1,0 +1,238 @@
+
+#cabecalho{
+    position: relative;
+    width: 1900px;
+    height: 162px;
+    background-color: #A83D3D;
+    left: -10px;
+    top: -10px;
+}
+#logo{
+position: absolute;
+width: 220px;
+height: 220px;
+left: 631px;
+top: 0px;
+
+
+}
+
+body {
+background-color: #5D5D5D;
+overflow: hidden;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.lateral{
+position: absolute;
+width: 245px;
+height: 595px;
+left: 0px;
+top: 160px;
+background: #2F2F2F;
+}
+
+#title {
+position: absolute;
+width: 1210px;
+height: 55px;
+left: 0px;
+top: -10px;
+background: #A83D3D;
+border-radius: 5px;
+}
+
+
+
+
+.texto{
+position: absolute;
+width: 400px;
+height: 25px;
+left: 30px;
+
+font-weight: 400;
+font-size: 25px;
+line-height: 0px;
+color: #000000;
+cursor: pointer;
+}
+
+
+.texto_l {
+position: absolute;
+width: 124px;
+height: 35px;
+left: 32px;
+color: #FFFFFF;
+font-style: bold;
+font-size: 25px;
+cursor: pointer;
+}
+
+#t1{ top: 150px; }
+#t2{ top: 200px; }
+#t3{ top: 250px; }
+#t4 { top: 300px; }
+
+.cabec_text {
+position: absolute;
+width: 103px;
+height: 36px;
+top: -15px;
+font-style: bold;
+font-weight: 700;
+font-size: 25px;
+line-height: 39px;
+color: #FFFFFF;
+}
+
+#c1 {left: 20px; }
+#c2 {left: 750px;}
+#c3 {left: 1020px; }
+
+#rt { 
+position: relative;
+width: 1219px;
+height: 420px;
+left: 262px;
+z-index: -5;
+top: 147px;
+background: #808080;
+border-radius: 5px;
+}
+
+#filtrar {
+position: absolute;
+width: 136px;
+height: 50px;
+left: 1350px;
+top: 190px;
+background: #D9D9D9;
+border-radius: 5px;
+}
+
+#filtrar1{
+position: absolute;
+width: 129px;
+height: 41px;
+left: 1365px;
+top: 170px;
+font-style: bold;
+font-weight: 700;
+font-size: 25px;
+line-height: 43px;
+color: #2F2F2F;
+cursor: pointer;
+;
+
+}
+
+#pesquisar{
+position: absolute;
+width: 224px;
+height: 50px;
+left: 1120px;
+top: 190px;
+
+background: #D9D9D9;
+border-radius: 5px;
+}
+
+#pesquisar1 {
+position: absolute;
+width: 178px;
+height: 35px;
+left: 1180px;
+top: 170px;
+font-style: bold;
+font-weight: 700;
+font-size: 25px;
+line-height: 43px;
+color: #2F2F2F;
+cursor: pointer;
+}
+
+#lupa {
+position: absolute;
+left: 1130px;
+top: 195px;
+cursor: pointer;
+}
+
+.horario{
+position: absolute;
+left: -900px;
+color: #000000;
+}
+
+#fundo_cinza{
+position: absolute;
+width: 1210px;
+height: 390px;
+left: 262px;
+background: #808080;
+border-radius: 5px;
+top: 310px;
+}
+.tabela {
+position: relative;
+width: 1209px;
+height: 45px;
+background: #D9D9D9;
+border-radius: 5px;
+top: 30px;
+}
+    #p1{
+top: 40px;
+    }
+    #p2{
+        top: 45px;
+    }
+    #p3{
+        top: 50px;
+    }
+
+    #p4{
+        top: 55px;
+    }
+
+    #p5{
+        top: 60px;
+    }
+
+    #p6{
+        top: 65px;
+    }
+
+    #p7 {
+        top: 70px ;
+    }
+
+    #hor {
+position: absolute;
+font-style: normal;
+left: 1022px;
+z-index: 10;
+width: 178px;
+height: 35px;
+font-weight: 700;
+font-size: 25px;
+line-height: 0px;
+color: #2F2F2F;
+    }
+
+    #setor {
+position: absolute;
+font-style: normal;
+left: 750px;
+z-index: 10;
+width: 250px;
+height: 35px;
+font-weight: 700;
+font-size: 20px;
+line-height: 0px;
+color: #2F2F2F;
+    }
+

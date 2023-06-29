@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="/imagens/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body style="background-color: #5D5D5D;">
+
+    <div id="cabecalho">
+        <img src="imagens/logo.png" alt="logo" id="logo">
+    </div>
+
+    <div id="caixa">
+        <div id="caixacinza">
+            <div id="letra1">
+                <p>CADASTRO</p>
+            </div>
+        </div>
+        <div id="nome">
+            <input type="email" class="nome1" placeholder="Nome: "> 
+        </div>
+        <div id="cpf">
+            <input type="email" class="cpf1" placeholder="CPF: "> 
+        </div>
+        <div id="telefone">
+            <input type="email" class="telefone1" placeholder="Telefone: ">
+        </div>
+        <div id="endereço">
+            <input type="email" class="endereço1" placeholder="Endereço: ">
+        </div>
+        <div id="email">
+            <input type="email" class="email1" placeholder="E-mail: ">
+        </div>
+        <div id="senha">
+            <input type="email" class="senha1" placeholder="Senha: ">
+        </div>
+        <div id="confirmacao">
+            <input type="email" class="confirmacao1" placeholder="Confirmação Senha: ">
+        </div>
+            <select name="sexo" id="sexo">
+                <option value="" disabled selected hidden>Sexo</option>
+                <option value="f">Feminino</option>
+                <option value="m">Masculino</option>
+            </select>
+        <div id="data">
+                <input type="date" class="data1">
+        </div>
+        <button id="concluido" onclick="redirecionar()">
+            <p class="concluido1">Concluído</p>
+        </button>
+    </div>
+    <script>
+         function redirecionar() {
+      window.location.href = "login.html";
+         }
+    </script>
+
+
+</body>
+</html>
